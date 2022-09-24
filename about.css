@@ -1,0 +1,66 @@
+#about{
+    width: 100%;
+    border-bottom: 5px solid black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2%;
+}
+
+.contentAbout{
+    background-color: aquamarine;
+}
+
+.contentAbout h1{
+    font-size: 50px;
+}
+
+.descricao{
+    /* display: flex;
+    flex-flow: column wrap; */
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(41, 41, 41);
+}
+
+.programacao{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+    padding: 12% 8%;
+    font-size: 18px;
+
+    /* margin-top: 5%; */
+
+    background-color: rgb(182, 182, 243);
+    height: 0;
+    border-radius: 20px;
+    cursor: text;
+    border: 1px solid black;
+}
+
+.p_function{
+    color: blue;
+}
+
+.p_normal, .p_parentheses, .p_keys{
+    color: black;
+}
+
+.p_method{
+    color: green;
+}
+
+.p_methodE{
+    color: red;
+}
+
+#p_tab{
+    margin-left: 2%;
+}
+
+
+
+

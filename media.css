@@ -1,0 +1,38 @@
+@media (max-height: 912px) and (max-width: 748px) {
+    header li{
+        gap: 2%;
+    }
+    .logo{
+        margin-right: 0;
+    }
+    header{
+        gap: 2%;
+        width: 45%;
+    }
+    #main, #about, #projects{
+        flex-flow: column wrap;
+        height: 200%;
+        width: 100%;
+    }
+    .partProjects{
+        flex-direction: column;
+        
+    }
+    #projects{
+        height: 200%;
+    }
+    footer{
+        height: 50%;
+        width: 748px;
+       
+    }
+    .contentFooter{
+        flex-flow: column wrap;
+    
+    }
+    .icon{
+        position: absolute;
+        margin: 0;
+        margin-top: 5%;
+    }
+}
