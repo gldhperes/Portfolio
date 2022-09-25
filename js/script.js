@@ -1,14 +1,14 @@
-let light = document.querySelector('.light')
+// let light = document.querySelector('.light')
 let body = document.querySelector('body')
 let projects = document.querySelector('.buttons')
 
-light.onclick = function(){
-    body.classList.toggle('active')
-}
+// light.onclick = function(){
+//     body.classList.toggle('active')
+// }
 
-projects.onclick = function(){
-    document.querySelector('#projects').classList.toggle('more')
-}
+// projects.onclick = function(){
+//     document.querySelector('#projects').classList.toggle('more')
+// }
 
 const inicial = document.querySelector('h3')
 function typeWriter(element){

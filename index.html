@@ -1,182 +1,147 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio</title>
-    <link rel="stylesheet" type="text/css" href="header.css">
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <link rel="stylesheet" type="text/css" href="about.css">
-    <link rel="stylesheet" type="text/css" href="projects.css">
-    <link rel="stylesheet" type="text/css" href="footer.css">  
-    <link rel="stylesheet" type="text/css" href="media.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-    <script src="https://unpkg.com/scrollreveal"></script>
-</head>
-<body>
-    <header>
-        <a href="index.html" class="logo">
-            <span>G/P</span>
-        </a>
-        <li>
-            <a href="#">HOME</a>
-            <a href="#about">ABOUT</a>
-            <a href="#projects">PROJECTS</a>
-            <a href="#footer">CONTACTS</a>
-        </li>
-        <div class="light">
-            <ion-icon name="moon-outline"></ion-icon>
-            <ion-icon name="sunny-outline"></ion-icon>
-        </div>
-    </header>
+<html lang="pt-br" data-theme="light">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfólio</title>
+        <link rel="stylesheet" type="text/css" href="css/header.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/about.css">
+        <link rel="stylesheet" type="text/css" href="css/projects.css">
+        <link rel="stylesheet" type="text/css" href="css/footer.css">  
+        <link rel="stylesheet" type="text/css" href="css/media.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </head>
 
-    <section class="main">
+    <body>
+        <header>
+            <a href="index.html" class="logo">
+                <span>G/P</span>
+            </a>
+            <li>
+                <a href="#">HOME</a>
+                <a href="#about">ABOUT</a>
+                <a href="#projects">PROJECTS</a>
+                <a href="#footer">CONTACTS</a>
+            </li>
 
-        <div class="contentMain">
-            <div class="apresentation">
-                <h1>Olá, eu sou Guilherme Peres</h1>
-                <h3>Bem-vindo ao meu Portfólio</h3> 
+            <div id="toggle">
+                <input id="toggle-dark" type="checkbox" name="toggle-dark" />
+                <ion-icon id="moon" name="moon-outline"></ion-icon>
+                <ion-icon id="sun" name="sunny-outline"></ion-icon>
             </div>
 
-            <div class="botoes">
-                <a class="buttonLinke" href="https://www.linkedin.com/in/jo%C3%A3o-paulo-medeiros-rocha-75445820b/" target="_blank"  >
-                    <button class="forlinke">         
-                        <i class="devicon-linkedin-plain nocolor" style="color: white;"></i>  
-                        <i class="devicon-linkedin-plain colored color"></i>                                               
-                        <p>LinkedIn</p>
-                    </button>
-                </a>
-                <a class="buttonGitHub" href="https://github.com/gldhperes" target="_blank">
-                    <button class="forgithub">
-                        <i class="devicon-github-original nocolor" style="color: white;"></i>
-                        <i class="devicon-github-original colored color"></i>
-                        <p>Git Hub</p>
-                    </button>
-                </a>
+        </header>
+
+        <section class="main">
+
+            <div class="contentMain">
+                <div class="apresentation">
+                    <h1>Olá, eu sou Guilherme Peres</h1>
+                    <h3>Bem-vindo ao meu Portfólio.</h3> 
+                </div>
+
+                <div class="botoes">
+                    <a class="buttonLinke" href="https://www.linkedin.com/in/jo%C3%A3o-paulo-medeiros-rocha-75445820b/" target="_blank"  >
+                        <button class="forlinke">         
+                            <i class="devicon-linkedin-plain nocolor" style="color: white;"></i>  
+                            <i class="devicon-linkedin-plain colored color"></i>                                               
+                            <p>LinkedIn</p>
+                        </button>
+                    </a>
+                    <a class="buttonGitHub" href="https://github.com/gldhperes" target="_blank">
+                        <button class="forgithub">
+                            <i class="devicon-github-original nocolor" style="color: white;"></i>
+                            <i class="devicon-github-original colored color"></i>
+                            <p>Git Hub</p>
+                        </button>
+                    </a>
+                </div>
             </div>
-        </div>
 
-        <div class="ilustracao">
-            <img class="ilustracaoImg" src="img/Ilustracao.png">
-        </div>
-    </section>
-
-    <section id="about">
-
-        <div class="contentAbout">
-            <h1>Sobre mim</h1>
-            <br>
-            <div class="descricao">
-                <p>Meu nome é João Paulo, sou estudante de Sistema de informção, </p>
-                <p>e desenvolvedor Front-end e Back-end, sou apaixonado por programação</p>
-                <p>e tenho experiência em Java, , Python, C, C#, HTML, CSS eJavaScript .</p>
-                <p>Sou uma pessoa dedicada e gosto muito de desafios, adoro cada</p>
-                <p>experiência da programação, e amo aprender mais e mais da</p>
-                <p>programação, estou sempre ansioso em melhorar!</p>
+            <div class="ilustracao">
+                <img class="ilustracaoImg" src="img/Ilustracao.png">
             </div>
-        </div>
+        </section>
 
-        <div class="programacao">
-            <p>
-                <span class="p_function">while</span>
+        <div class="borderline"></div>
 
-                <span class="p_parentheses">(
-                    <span class="p_var">guilherme.<span class="p_method">isAlive()</span></span>  
-                </span>
-                <span class="p_parentheses">)</span>
+        <section id="about">
 
-                <span class="p_keys">{</span>
-            </p>
-            
-            <p id="p_tab">
-                <p><span class="p_var">guilherme.<span class="p_method">eat()</span></span></p>
-                <p><span class="p_var">guilherme.<span class="p_method">sleep()</span></span></p>
-                <p><span class="p_var">guilherme.<span class="p_methodE">code()</span></span></p>
-            </p>
+            <div class="contentAbout">
+                <h1>Sobre mim</h1>
 
-            <p><span class="p_keys">}</span></p>
-        </div>
+                <div class="descricao">
+                    <p>Meu nome é Guilherme Peres, sou estudante de Sistema de informção, </p>
+                    <p>e desenvolvedor Front-end e Back-end, sou apaixonado por programação.</p>
+                    <p>Tenho experiência em Java, , Python, C, C#, HTML, CSS e JavaScript.</p>
+                    <p>Sou uma pessoa dedicada e gosto muito de desafios, adoro cada</p>
+                    <p>experiência da programação, e amo aprender mais e mais,</p>
+                    <p>estou sempre ansioso em melhorar!</p>
+                </div>
+            </div>
 
-    </section>
+            <div class="progContent">
+                <div class="programacao">
+                    <p>
+                        <span class="p_function">while</span>
+
+                        <span class="p_parentheses">(
+                            <span class="p_var">guilherme.<span class="p_method">isAlive()</span></span>  
+                        </span>
+                        <span class="p_parentheses">)</span>
+
+                        <span class="p_keys">{</span>
+                    </p>
+                    
+                    <p>
+                        <p class="p_tab"><span class="p_var">guilherme.<span class="p_method">eat()</span></span></p>
+                        <p class="p_tab"><span class="p_var">guilherme.<span class="p_method">sleep()</span></span></p>
+                        <p class="p_tab"><span class="p_var">guilherme.<span class="p_methodE">code()</span></span></p>
+                    </p>
+
+                    <p><span class="p_keys">}</span></p>
+                </div>
+            </div>
+
+        </section>
+        
+        <div class="borderline"></div>
+
+        <section id="projectSection">
+
+            <div class="projectContent">
+
+                <h1>PROJECTS</h1>
+
+                <div class="partProjects">
+
+                    
+                </div>
     
-    <section id="projects">
-        <div class="contentProjects">
-            <h1>PROJECTS</h1>
-            <div class="partProjects">
-                <a href="https://rochajpp.github.io/ProjectGitHub/" target="_blank">
-                    <div class="project" style="background-image: url(img/Sem\ título.png);">
-                    <div class="contentProject">
-                        <h1>Projeto GitHub</h1>
-                        <p>Meu primeiro projeto usando HTML</p>
-                        <p>e CSS, fiz um clone de uma página</p>
-                        <p>GitHub que era um teste de uma</p>
-                        <p>entervista que fiz meses após a </p>
-                        <p>entrevista</p>
-                    </div>
-                    </div>
-                </a>
-                <a href="https://rochajpp.github.io/ProjectTwitter/" target="_blank">
-                    <div class="project" style="background-image: url(img/Sem\ título5.png)">
-                        <div class="contentProject" style="color: white;">
-                            <h1 style="color: white;">Projeto Twitter</h1>
-                            <p>Projeto clone do twitter utilizando HTML</p>
-                            <p>e CSS</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://rochajpp.github.io/ProjectLandingPage/" target="_blank">
-                    <div class="project" style="background-image: url(img/Sem\ título3.png); background-position: 1000px">
-                        <div class="contentProject" style="color: rgb(8, 8, 8);">
-                            <h1>Projeto Landing Page</h1>
-                            <p>Projeto realizado usando HTML e CSS </p>
-                            <p>de uma landing page</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="partProjects2">
-                
-                <a href="https://rochajpp.github.io/ProjectCalculator/" target="_blank">
-                    <div class="project" style="background-image: url(img/Sem\ título2.png)">
-                        <div class="contentProject" style="color: white;">
-                            <h1 style="color: white;">Projeto Calculadora</h1>
-                            <p>Meu primeiro projeto usando JavaScript</p>
-                            <p>usando HTML, CSS e JavaScript, fiz um</p>
-                            <p>sistema e uma estilização de calculadora</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://rochajpp.github.io/ProjectLogin/" target="_blank">
-                    <div class="project" style="background-image: url(img/Sem\ título4.png); background-position: center;">
-                        <div class="contentProject">
-                            <h1>Projeto Login</h1>
-                            <p>Página de login feita usando HTML</p>
-                            <p>e CSS ainda não finalizada</p>
-                        </div>
-                    </div>
-                </a>
-                <a>
-                    <div class="project">
-                        <div class="contentProject"></div>
-                    </div>
-                </a>
+                <div class="projectButtons">
+                    <button class="buttonMore">Mostrar mais</button>
+                    <button class="buttonMenos">Mostrar menos</button>
+                </div>
+                <a href="https://github.com/gldhperes?tab=repositories" target="_blank" class="github">Repositórios no GitHub</a>
+
             </div>
 
-            <div class="buttons">
-                <button class="buttonMore">Mostrar mais</button>
-                <button class="buttonMenos">Mostrar menos</button>
-            </div>
-            <a href="https://github.com/rochajpp?tab=repositories" target="_blank" class="github">Repositórios no GitHub</a>
-        </div>
-    </section>
-    <footer id="footer">
-        <div class="contentFooter">
+        </section>
+
+        <footer id="footer">
+      
             <div class="info">
                 <p>E-mail: gldhperes@gmail.com</p>
                 <p>Número: (85)99696-0660</p>
                 <p>Criado por Guilherme Leiria de Holanda Peres</p>
             </div>
+
             <div class="icon">
                 <div class="part">
                     <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -193,11 +158,12 @@
                     <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
                 </div>
             </div>
-        </div>
-    </footer>
-    <script src="script.js"></script>
-    
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-</body>
+        
+        </footer>
+
+        <script src="js/changeTheme.js"></script>
+        <script src="js/script.js"></script>
+        
+    </body>
+
 </html>
