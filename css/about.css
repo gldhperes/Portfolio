@@ -18,18 +18,18 @@
 .descricao{
     font-size: 20px;
     font-weight: 700;
-    color: rgb(41, 41, 41);
+    color: var(--descricao);
 }
 
 .progContent{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(182, 182, 243);
+    background-color: var(--progBackground);
     border-radius: 20px;
     border: 1px solid black;
     padding: 2% 2%;
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Source Code Pro', monospace;
 }
 
@@ -37,25 +37,30 @@
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    /* align-items: flex-start; */
-    /* background-color: white; */
-    cursor: text;
 }
 
 .p_function{
-    color: blue;
+    color: var(--p_function);
 }
 
-.p_normal, .p_parentheses, .p_keys{
-    color: black;
+.p_normal{
+    color: var(--p_normal);
+}
+
+.p_parentheses{
+    color: var(--p_parentheses);
+}
+
+.p_keys{
+    color: var(--p_keys);
 }
 
 .p_method{
-    color: green;
+    color: var(--p_method);
 }
 
 .p_methodE{
-    color: red;
+    color: var(--p_methodE);
 }
 
 .p_tab{

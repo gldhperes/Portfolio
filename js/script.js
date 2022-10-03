@@ -28,7 +28,7 @@ window.scrl = ScrollReveal({ reset:true});
 ScrollReveal({ distance: '20px' });
 //ScrollReveal de #home
 scrl.reveal('.apresentation', {duration: 3000});
-scrl.reveal('.buttonLinke', {duration: 9000})
+scrl.reveal('.buttonLinkedin', {duration: 9000})
 scrl.reveal('.buttonGitHub', {duration: 9000})
 scrl.reveal('.ilustracao', {duration: 3000})
 //ScrollReveal de #about
