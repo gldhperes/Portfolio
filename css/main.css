@@ -8,10 +8,10 @@
 }
 
 html{
-    --background: rgb(180, 180, 180);  
-    --borderline: black;
-    --textColor: black;
-    --border: black;
+    --background: black;
+    --borderline: white;
+    --textColor: white;
+    --border: white;
     --descricao: rgb(41, 41, 41);
     --progBackground: rgb(182, 182, 243);
 
@@ -43,13 +43,15 @@ body, html{
     color: var(--textColor);
     background-color: var(--background);
     font-family: 'Poppins', sans-serif;
+    /* font-family: "Raleway", sans-serif; */
     transition: 1s;
     scroll-behavior: smooth;
     zoom: 1;
     width: 100%;
     height: 100%;
-}
 
+  
+}
 
 
 /* GERAL */
@@ -57,17 +59,62 @@ a{
     text-decoration: none;
 }
 
+li{
+    list-style: none;
+}
+
+ /* Banner */
+.home-main-banner{
+    position: relative;
+    background: url(../img/paisagem.jpeg) top no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 50px;
+    color: #fff;
+}
+
+.overlay{
+    background: url(../img/mask-banner.png) bottom no-repeat;
+    background-size: 100% auto;
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    /* z-index: 1; */
+}
+
 
 
 /* MAIN */
 .main{
-    margin-top: calc(80px + 3%); /* 80px do header + valor*/ 
+    /* 80px do header + valor  */
+    margin-top: calc(100px + 10%); 
     width: 100%;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     gap: 5%;
     align-items: flex-start;
+}
+
+.macbook{
+    width: 70%;
+    height: 100%;
+   
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.macbook .macbookImg{
+    width: 100%;
+    height: 100%;
+    background: url(../img/macbook.png) bottom no-repeat;
+    background-size: 100% auto;
+
 }
 
 .borderline{
@@ -79,73 +126,16 @@ a{
     font-size: 30px;
     display: flex;
     flex-flow: column wrap;
-}
-
-.ilustracao{
-    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-
-.forlinkedin, .forgithub{
-    cursor: pointer;
+/* .ilustracao{
     display: flex;
-    flex-flow: row wrap;
+    justify-content: center;
     align-items: center;
-    gap: 2.5rem;
-    width: 20rem;
-    height: 4rem;
-    margin-top: 2rem;
-    text-decoration: none;
-    color: #000000;
-    background-color: rgb(180, 180, 180);
-    border: 1px solid var(--border);
-    border-radius: 50px;
-    font-size: 1.8rem;
-    transition: 1s;
-    /* background-color: #0a66c2; */
-}
+} */
 
-.forlinkedin i, .forgithub i{
-    margin-left: 2rem;
-}
-
-.forlinkedin i, .forgithub i{
-    position: static;
-    font-size: 2.5rem;
-}
-
-.forgithub:hover{
-    background-color: rgb(48, 48, 48);
-    color: white; 
-}
-
-.forlinkedin:hover{
-    border: none;
-    background-color: #0a66c2;
-    color: white;
-}
-
-.forlinkedin:hover  .color{
-    display: none;
-}
-
-.forgithub:hover .color{
-    display: none;
-}
-
-.nocolor{
-    display: none;
-}
-
-.forlinkedin:hover .nocolor{
-    display: block;
-}
-
-.forgithub:hover .nocolor{
-    display: block;
-}
 
 
 

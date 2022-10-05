@@ -1,3 +1,4 @@
+/* ABOUT */
 #about{
     width: 100%;
     display: flex;
@@ -5,22 +6,54 @@
     justify-content: center;
     align-items: center;
     gap: 2%;
+    font-family: "Raleway", sans-serif;
+
+    /* background-color: rgb(0, 56, 56); */
 }
 
 .contentAbout{
     padding: 2%;
+    width: 30%;
 }
 
-.contentAbout h1{
+.contentAbout .title{
     font-size: 50px;
+    color: rgb(187, 0, 0);
 }
 
 .descricao{
-    font-size: 20px;
-    font-weight: 700;
-    color: var(--descricao);
+    font-size: 18px;
+    /* font-weight: 700; */
+    color: white;
+    margin-left: 20px;
 }
 
+/* PROFILE */
+.profile{
+    width: 320px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: url(../img/profile-circle.png) no-repeat;
+    background-size: 100% 100%;
+    /* background-color: aqua; */
+    position: relative;
+}
+
+.thumb{
+    width: 70%;
+    height: 70%;
+    border-radius: 100%;
+    background: url(../img/eu.png) no-repeat;
+    background-size: cover;
+   
+}
+
+
+
+/* PROGRAMAÇÂO */
 .progContent{
     display: flex;
     justify-content: center;
@@ -66,7 +99,3 @@
 .p_tab{
     margin-left: 20px;
 }
-
-
-
-

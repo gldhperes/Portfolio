@@ -3,6 +3,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: black;
+    background-color: white;
 }
 
 /* .contentProjects{ */
@@ -11,11 +13,13 @@
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    
+    margin: 0 auto;
 }
 
 .projectContent h1{
+    
     font-size: 30px;
+    font-weight: bold;
 }
 
 .partProjects{

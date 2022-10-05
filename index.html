@@ -4,10 +4,12 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="img/programacao.png">
         <title>Portfólio</title>
         <link rel="stylesheet" type="text/css" href="css/header.css">
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <link rel="stylesheet" type="text/css" href="css/about.css">
+        <link rel="stylesheet" type="text/css" href="css/skills.css">
         <link rel="stylesheet" type="text/css" href="css/projects.css">
         <link rel="stylesheet" type="text/css" href="css/project_Images.css">
         <link rel="stylesheet" type="text/css" href="css/media.css">
@@ -21,69 +23,67 @@
 
     <body>
         <header>
-            <a href="index.html" class="logo">
-                <span>G/P</span>
-            </a>
-            <li>
-                <a href="#">HOME</a>
-                <a href="#about">SOBRE</a>
-                <a href="#projectSection">PROJETOS</a>
-                <a href="#footer">CONTATOS</a>
-            </li>
 
-            <div id="toggle">
+            <div class="h_contents">
+
+                <div class="h_li" href="#">HOME</div>
+
+                <div class="h_li" href="#about">SOBRE</div>
+    
+                <div id="brand" href="index.html" class="logo">
+                    G/P
+                </div>
+                
+                <div class="h_li" href="#projectSection">PROJETOS</div>
+
+                <div class="h_li" href="#footer">CONTATOS</div>
+
+            </div>
+            
+            <!-- <div id="toggle">
                 <input id="toggle-dark" type="checkbox" name="toggle-dark" />
                 <ion-icon id="moon" name="moon-outline"></ion-icon>
                 <ion-icon id="sun" name="sunny-outline"></ion-icon>
-            </div>
+            </div> -->
 
         </header>
 
-        <section class="main">
+        <section class="home-main-banner"> 
+            <div class="overlay"></div>
 
-            <div class="contentMain">
-                <div class="apresentation">
-                    <h1>Olá, eu sou Guilherme Peres</h1>
-                    <h3>Bem-vindo ao meu Portfólio.</h3> 
+            <div class="main">
+
+                <div class="macbook">
+                    <img class="macbookImg" src="img/macbook.png">
+                    <!-- <div class="macbookImg"></div> -->
                 </div>
 
-                <div class="botoes">
-                    <div class="buttonLinkedin" href="https://www.linkedin.com/in/jo%C3%A3o-paulo-medeiros-rocha-75445820b/" target="_blank"  >
-                        <button class="forlinkedin">         
-                            <i class="devicon-linkedin-plain nocolor" style="color: white;"></i>  
-                            <i class="devicon-linkedin-plain colored color"></i>                                               
-                            <p>LinkedIn</p>
-                        </button>
-                    </div>
-                    <div class="buttonGitHub" href="https://github.com/gldhperes" target="_blank">
-                        <button class="forgithub">
-                            <i class="devicon-github-original nocolor" style="color: white;"></i>
-                            <i class="devicon-github-original colored color"></i>
-                            <p>Git Hub</p>
-                        </button>
-                    </div>
-                </div>
             </div>
 
-            <div class="ilustracao">
-                <img class="ilustracaoImg" src="img/Ilustracao.png">
-            </div>
+            <div class="borderline"></div>
+
         </section>
-
-        <div class="borderline"></div>
 
         <section id="about">
 
             <div class="contentAbout">
-                <h1>Sobre mim</h1>
+                <p class="title">Olá,</p>
 
                 <div class="descricao">
-                    <p>Meu nome é Guilherme Peres, sou estudante de Sistema de informção, </p>
-                    <p>e desenvolvedor Front-end e Back-end, sou apaixonado por programação.</p>
-                    <p>Tenho experiência em Java, , Python, C, C#, HTML, CSS e JavaScript.</p>
-                    <p>Sou uma pessoa dedicada e gosto muito de desafios, adoro cada</p>
-                    <p>experiência da programação, e amo aprender mais e mais,</p>
-                    <p>estou sempre ansioso em melhorar!</p>
+                    <p>
+                        Sou Guilherme Peres, sou estudante de Sistema de informção,
+                        e desenvolvedor Front-end e Back-end, sou apaixonado por programação.
+                        Sou uma pessoa dedicada e gosto muito de desafios, adoro cada
+                        experiência da programação, e amo aprender mais e mais,
+                        estou sempre ansioso em melhorar!
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="profile">
+                <div class="thumb">
+
                 </div>
             </div>
 
@@ -112,7 +112,49 @@
 
         </section>
         
-        <div class="borderline"></div>
+        <!-- <div class="borderline"></div> -->
+
+        <section class="skills">
+
+            <div class="carousel">
+                
+                <!-- <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3"> -->
+                
+                <div class="skill first">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" />
+                </div>
+
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+                </div>
+
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" />
+                </div>
+            
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                </div>
+
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                </div>
+                
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                </div>
+            
+            </div>
+
+            <!-- <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+            </div> -->
+        </section>
+
+
 
         <section id="projectSection">
 
@@ -158,7 +200,7 @@
         </section>
 
         <footer id="footer">
-      
+    
             <div class="info">
                 <p>E-mail: gldhperes@gmail.com</p>
                 <p>Número: (85)99696-0660</p>
@@ -184,9 +226,7 @@
         
         </footer>
 
-        <script src="js/changeTheme.js"></script>
-        <script src="js/script.js"></script>
-        
+    <script src="js/script.js"></script>
     </body>
 
 </html>
