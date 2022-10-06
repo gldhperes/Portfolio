@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Titillium+Web:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html{
+:root{
     --background: black;
     --borderline: white;
     --textColor: white;
@@ -15,28 +8,19 @@ html{
     --descricao: rgb(41, 41, 41);
     --progBackground: rgb(182, 182, 243);
 
-    --p_function:blue;
+    --p_function:rgb(187, 134, 161);
+    --p_var: rgb(79, 184, 254);
     --p_normal: black;
-    --p_parentheses: black;
-    --p_keys: black;
-    --p_method: green;
+    --p_parentheses: rgb(47, 0, 255);
+    --p_keys: rgb(255, 255, 255);
+    --p_method: rgb(220, 220, 139);
     --p_methodE:red;
 }
 
-html[data-theme="dark"]{
-    --background: black;
-    --borderline: white;
-    --textColor: white;
-    --border: rgb(170, 170, 170);
-    --descricao:rgb(180, 180, 180);
-    --progBackground: rgb(72, 72, 90);
-
-    --p_function:yellow;
-    --p_normal: black;
-    --p_parentheses: white;
-    --p_keys: rgb(0, 153, 255);
-    --p_method: rgb(0, 0, 0);
-    --p_methodE:rgb(30, 255, 0);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body, html{
@@ -49,8 +33,6 @@ body, html{
     zoom: 1;
     width: 100%;
     height: 100%;
-
-  
 }
 
 
@@ -128,29 +110,4 @@ li{
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-}
-
-/* .ilustracao{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
-
-
-
-.apresentation > h3::after{
-    content: "|";
-    margin-left: 5px;
-    opacity: 1;
-    animation: barraDigitacao .7s infinite;
-}
-
-@keyframes barraDigitacao{
-    0%, 100%{
-        opacity: 1;
-    }
-    50%{
-        opacity: 0;
-    }
 }

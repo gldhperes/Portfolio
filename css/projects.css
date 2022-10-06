@@ -23,7 +23,7 @@
 }
 
 .partProjects{
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -78,14 +78,21 @@
 }
 
 .github{
-    font-size: 20px;
-    text-decoration: none;
-    font-weight: 800;
-    color: var(--textColor);
-    letter-spacing: 0.1%;
-    transition: 0.5s;
+    transition: 0.2s;
+    padding: 10px;
+    border-radius: 20px;
 }
+
+.github > a{
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 0.1%;
+    color: black;
+    text-decoration: none;
+}
+
 .github:hover{
-    color: var(--textColor);
+    /* color: var(--textColor); */
     letter-spacing: 0.2%;
+    background-color: #858585;
 }

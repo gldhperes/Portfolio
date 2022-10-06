@@ -1,38 +1,34 @@
-@media (max-height: 912px) and (max-width: 748px) {
-    header li{
-        gap: 2%;
+@media only screen and (max-width: 1140px) {
+    #about{
+        /* flex-flow: column wrap; */
     }
-    .logo{
-        margin-right: 0;
-    }
-    header{
-        gap: 2%;
-        width: 45%;
-    }
-    #main, #about, #projects{
+}
+
+
+@media only screen and (max-width: 850px) {
+    /* Fazer dropdown menu no Header */
+}
+
+@media only screen and (max-width: 700px) {
+    /* Ajeitar parde de Sobre mim */
+    #about{
         flex-flow: column wrap;
-        height: 200%;
+    }
+
+    .contentAbout{
+        width: 80%;
+    }
+
+
+    /* Tirar simbolo G/P do footer e deixar com width com 100% */
+    #footer > .logo{
+        visibility: hidden;
+        height: 0;
+        width: 0;
+    }
+
+    .info{
         width: 100%;
-    }
-    .partProjects{
-        flex-direction: column;
-        
-    }
-    #projects{
-        height: 200%;
-    }
-    footer{
-        height: 50%;
-        width: 748px;
-       
-    }
-    .contentFooter{
-        flex-flow: column wrap;
-    
-    }
-    .icon{
-        position: absolute;
-        margin: 0;
-        margin-top: 5%;
+        text-align: center;
     }
 }

@@ -1,15 +1,17 @@
 .skills{
     width: 100%;
-    padding: 8%;
+    padding: 9%;
     display: flex;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
     background-image: linear-gradient(180deg, black 50%, white 50%);
     /* background-color: aqua; */
 }
-
-
-
+.skills > p{
+    letter-spacing: 5px;
+}
 .carousel{
     width: 100%;
     display: flex;
@@ -19,9 +21,7 @@
     gap: 30px;
 }
 
-.carousel input{
-    display: none;
-}
+
 
 .skill{
     width: 80px;

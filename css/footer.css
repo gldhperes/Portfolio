@@ -1,8 +1,8 @@
 footer{
-    margin-top: 30px;
+    /* margin-top: 30px; */
     border-top: 2px solid var(--borderline);
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.685);
+    background-color: rgb(0, 0, 0);
     color: rgb(231, 231, 231);
 
     display: flex;
@@ -11,10 +11,3 @@ footer{
     align-items: center;
     padding: 10px 40px;
 }
-
-.icon{
-    display: flex;
-    flex-flow: column wrap;
-    gap: 5px;
-}
-
