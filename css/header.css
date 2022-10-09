@@ -1,4 +1,4 @@
-header{
+#header{
     width: 100%;
     
     position: absolute;
@@ -6,84 +6,69 @@ header{
     left: 0px;
     z-index: 10;
     
-    /* background-color: rgba(255, 255, 255, 0.192); */
     display: flex;
-    flex-flow: column wrap;
     justify-content: space-between;
     align-items: center;
     
-    
-    /* border-bottom: 1px solid var(--border); */
-    /* backdrop-filter: blur(10px); */
     padding: 10px 40px;
 }
 
-
-/* h_socials */
-.h_socials{
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    /* gap: 10%; */
-    padding: 2% 0;
-    /* background-color: #000000; */
+/* dropdown-content */
+.dropdown-content {
+    display: none;
+    cursor: pointer;
+    /* position: absolute; */
+    background-color: rgba(0, 0, 0, 0.2);;
+    border-radius: 20px;
+    padding: 12px 16px;
+    z-index: 9;
 }
 
-.h_icon{
-    color: rgb(0,0,0);
-    background-color: rgb(255, 255, 255);
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    border-radius: 50%;
-    padding: 2%;
+.ionIcon{
+    font-size: 30px;
+    transition: 1s;
 }
 
-.h_socialIcons{
-    width: 30%;
-    height: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 3%;
+#closeMenu{
+    display: none;
+}
+
+#dropdownMenu{
+    visibility: hidden;
+    width: 0;
+    height: 0;
     
-    /* background-color: aqua; */
-} 
-
-.h_socialIcons, i{
-    font-size: 18px;
+    position: absolute;
+    top: 150px;
+    left: 5%;
+    
 }
 
-.h_socialContact{
-    width: 30%;
-    height: 100%;
+.navbar{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    gap: 5%;
-    /* background-color: aquamarine; */
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    padding: 20px 0;
+    border: 2px solid white;
 }
 
-.fortelefone{
-    color: rgb(0,0,0);
-    background-color: rgb(255, 255, 255);
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    border-radius: 50%;
-    padding: 2%;
+#dropdownMenu > .navbar > a{
+    width: 100%;
+    padding: 15px;
+    /* margin: 10px auto; */
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
 }
 
-.tel{
-    font-size: 18px;    
+#dropdownMenu > .navbar > a:hover{
+    background-color: aliceblue;
+    color:black;
 }
 
 
@@ -128,39 +113,10 @@ header{
 }
 
 
-
-
-
-
-
 .logo{
     color: var(--textColor);
     font-size: 30px;
     font-weight: 700;
     text-decoration: none;
     transition: 1s;
-}
-
-
-#toggle-dark{
-    visibility: hidden;
-    height: 0;
-    width: 0;
-}
-
-#toggle{
-    /* background-color: aqua; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#toggle ion-icon{
-    font-size: 25px;
-    transition: 0.2s;   
-}
-
-#toggle ion-icon:hover{
-    cursor: pointer;
-    font-size: 25px;
 }

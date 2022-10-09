@@ -22,31 +22,42 @@
     </head>
 
     <body>
-        <header>
+        <header id="header">
 
             <div class="h_contents">
-
                 <div class="h_li" href="#">HOME</div>
 
                 <div class="h_li" href="#about">SOBRE</div>
-    
-                <div id="brand" href="index.html" class="logo">
-                    G/P
-                </div>
-                
+            </div>
+
+            <div id="brand" href="index.html" class="logo">
+                G/P
+            </div>
+
+            <div class="h_contents">
                 <div class="h_li" href="#projectSection">PROJETOS</div>
 
                 <div class="h_li" href="#footer">CONTATOS</div>
-
             </div>
+
+
+            <div class="dropdown-content" onclick="dropdownMenu()">
+                <ion-icon id="menu" class="ionIcon" name="menu"></ion-icon>
+                <ion-icon id="closeMenu" class="ionIcon" name="close-outline"></ion-icon>
+            </div>   
             
-            <!-- <div id="toggle">
-                <input id="toggle-dark" type="checkbox" name="toggle-dark" />
-                <ion-icon id="moon" name="moon-outline"></ion-icon>
-                <ion-icon id="sun" name="sunny-outline"></ion-icon>
-            </div> -->
+            <div id="dropdownMenu">
+                <div class="navbar"  onclick="closeDropMenu()">
+                    <a href="#">HOME</a>
+                    <a href="#about">SOBRE</a>
+                    <a href="#projectSection">PROJETOS</a>
+                    <a href="#footer">CONTATOS</a>
+                </div>
+            </div>
 
         </header>
+
+        
 
         <section class="home-main-banner"> 
             <div class="overlay"></div>
@@ -213,6 +224,7 @@
         </footer>
 
     <script src="js/script.js"></script>
+    <script src="js/dropdownMenu.js"></script>
     </body>
 
 </html>

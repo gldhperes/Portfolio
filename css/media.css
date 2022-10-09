@@ -4,9 +4,26 @@
     }
 }
 
-
 @media only screen and (max-width: 850px) {
     /* Fazer dropdown menu no Header */
+    #header{
+        padding: 10px 70px;
+        flex-flow: row wrap;
+    }
+
+    .h_contents{
+        display: none;
+    }
+
+    .dropdown-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 1s;
+    }
+
+    
+
 }
 
 @media only screen and (max-width: 700px) {
@@ -22,9 +39,7 @@
 
     /* Tirar simbolo G/P do footer e deixar com width com 100% */
     #footer > .logo{
-        visibility: hidden;
-        height: 0;
-        width: 0;
+        display: none;
     }
 
     .info{
