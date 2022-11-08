@@ -87,12 +87,13 @@
 
 .h_li{
     cursor: pointer;
+    /* background-color: #000000; */
+}
+
+.h_li > a{
     color: var(--textColor);
-  
     font-size: 20px;
     font-weight: 800;
-
-    /* background-color: #000000; */
 }
 
 .h_li:hover{

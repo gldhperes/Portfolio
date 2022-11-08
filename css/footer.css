@@ -11,3 +11,8 @@ footer{
     align-items: center;
     padding: 10px 40px;
 }
+
+#footer > .logo > a{
+    color: rgb(231, 231, 231);
+
+}
