@@ -1,256 +1,341 @@
 <!DOCTYPE html>
 <html lang="pt-br" data-theme="light">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="img/programacao.png">
-        <title>Portfólio</title>
-        <link rel="stylesheet" type="text/css" href="css/header.css">
-        <link rel="stylesheet" type="text/css" href="css/main.css">
-        <link rel="stylesheet" type="text/css" href="css/about.css">
-        <link rel="stylesheet" type="text/css" href="css/skills.css">
-        <link rel="stylesheet" type="text/css" href="css/projects.css">
-        <link rel="stylesheet" type="text/css" href="css/project_Images.css">
-        <link rel="stylesheet" type="text/css" href="css/media.css">
-        <link rel="stylesheet" type="text/css" href="css/footer.css">       
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script src="https://unpkg.com/scrollreveal"></script>
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    </head>
 
-    <body>
-        <header id="header">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/programacao.png">
+    <title>Portfólio</title>
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/about.css">
+    <link rel="stylesheet" type="text/css" href="css/skills.css">
+    <link rel="stylesheet" type="text/css" href="css/projects.css">
+    <link rel="stylesheet" type="text/css" href="css/project_Images.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
 
-            <div class="h_contents">
-                <div class="h_li" >
-                    <a href="#">HOME</a>
-                </div>
+<body>
+    <header id="header">
 
-                <div class="h_li" >
-                    <a href="#about">SOBRE</a>
-                </div>
+        <div class="h_contents">
+            <div class="h_li">
+                <a href="#">HOME</a>
             </div>
 
-            <div id="brand" href="index.html" class="logo">
-                G/P
+            <div class="h_li">
+                <a href="#about">SOBRE</a>
+            </div>
+        </div>
+
+        <div id="brand" href="index.html" class="logo">
+            G/P
+        </div>
+
+        <div class="h_contents">
+            <div class="h_li">
+                <a href="#projectSection">PROJETOS</a>
             </div>
 
-            <div class="h_contents">
-                <div class="h_li" >
-                    <a href="#projectSection">PROJETOS</a>
+            <div class="h_li">
+                <a href="#footer">CONTATOS</a>
+            </div>
+        </div>
+
+
+
+        <div class="dropdown-content" onclick="dropdownMenu()">
+            <ion-icon id="menu" class="ionIcon" name="menu"></ion-icon>
+            <ion-icon id="closeMenu" class="ionIcon" name="close-outline"></ion-icon>
+        </div>
+
+        <div id="dropdownMenu">
+            <div class="navbar flex" onclick="closeDropMenu()">
+                <a href="#">HOME</a>
+                <a href="#about">SOBRE</a>
+                <a href="#projectSection">PROJETOS</a>
+                <a href="#footer">CONTATOS</a>
+            </div>
+        </div>
+
+    </header>
+
+
+
+    <section class="home-main-banner">
+        <div class="overlay"></div>
+
+        <div class="main">
+
+            <div class="macbook">
+                <div class="slogan">
+                    <p>Codificando as suas ideias.</p>
                 </div>
 
-                <div class="h_li" >
-                    <a href="#footer">CONTATOS</a>
-                </div>
+                <img class="macbookImg" src="img/macbook.png">
+                <!-- <div class="macbookImg"></div> -->
             </div>
 
-            
+        </div>
 
-            <div class="dropdown-content" onclick="dropdownMenu()">
-                <ion-icon id="menu" class="ionIcon" name="menu"></ion-icon>
-                <ion-icon id="closeMenu" class="ionIcon" name="close-outline"></ion-icon>
-            </div>   
-            
-            <div id="dropdownMenu">
-                <div class="navbar"  onclick="closeDropMenu()">
-                    <a href="#">HOME</a>
-                    <a href="#about">SOBRE</a>
-                    <a href="#projectSection">PROJETOS</a>
-                    <a href="#footer">CONTATOS</a>
-                </div>
+        <div class="borderline"></div>
+
+    </section>
+
+    <section id="about">
+
+        <div class="contentAbout">
+            <p class="title">Olá,</p>
+
+            <div class="descricao">
+                <p>
+                    Sou Guilherme Peres, sou estudante de Sistema de informação,
+                    desenvolvedor Full Stack e apaixonado por programação.
+                    Sou dedicado e gosto muito de desafios, adoro cada
+                    experiência da programação e amo aprender mais e mais.
+                </p>
             </div>
 
-        </header>
+        </div>
 
-        
+        <div class="profile">
+            <div class="thumb">
 
-        <section class="home-main-banner"> 
-            <div class="overlay"></div>
+            </div>
+        </div>
 
-            <div class="main">
+        <div class="progContent">
+            <div class="programacao">
+                <p>
+                    <span class="p_function">while</span>
 
-                <div class="macbook">
-                    <div class="slogan">
-                        <p>Codificando as suas ideias.</p> 
+                    <span class="p_parentheses">(
+                        <span class="p_var">guilherme.<span class="p_method">isAlive()</span></span>
+                    </span>
+                    <span class="p_parentheses">)</span>
+
+                    <span class="p_keys">{</span>
+                </p>
+
+                <p>
+                <p class="p_tab"><span class="p_var">guilherme.<span class="p_method">eat()</span></span></p>
+                <p class="p_tab"><span class="p_var">guilherme.<span class="p_method">sleep()</span></span></p>
+                <p class="p_tab"><span class="p_var">guilherme.<span class="p_methodE">code()</span></span></p>
+                </p>
+
+                <p><span class="p_keys">}</span></p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- <div class="borderline"></div> -->
+
+    <section class="skills">
+        <p>MINHAS SKILLS E POWER-UP'S</p>
+
+        <div class="carousel">
+
+
+
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" alt="Unity"
+                    title="Unity" />
+            </div>
+
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"
+                    title="Java" />
+            </div>
+
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="Csharp"
+                    title="Csharp" />
+            </div>
+
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"
+                    title="HTML" />
+            </div>
+
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS"
+                    title="CSS" />
+            </div>
+
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                    alt="Javascript" title="Javascript" />
+            </div>
+
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"
+                    title="Python" />
+            </div>
+
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"
+                    title="React" />
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+    <section id="projectSection">
+
+        <div class="projectContent">
+
+            <h1>PROJETOS</h1>
+
+            <div class="partProjects">
+
+                <a id="p1" class="imgSettings flex project"
+                    href="https://gldhperes.github.io/A-Dauntless-Adventure-Game/" target="_blank">
+                    <div class="projectText">
+                        <h3>A Dauntless Adventure</h3>
+                        <p>Jogo de Shot'em Up feito em unity</p>
                     </div>
 
-                    <img class="macbookImg" src="img/macbook.png">
-                    <!-- <div class="macbookImg"></div> -->
-                </div>
+                    <div class="projectLanguages flex">
+                        <div class="languages flex">
+                            <div class="skill flex">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg"
+                                    alt="Unity" title="Unity" />
+                            </div>
 
-            </div>
-
-            <div class="borderline"></div>
-
-        </section>
-
-        <section id="about">
-
-            <div class="contentAbout">
-                <p class="title">Olá,</p>
-
-                <div class="descricao">
-                    <p>
-                        Sou Guilherme Peres, sou estudante de Sistema de informção,
-                        e desenvolvedor Front-end e Back-end, sou apaixonado por programação.
-                        Sou uma pessoa dedicada e gosto muito de desafios, adoro cada
-                        experiência da programação, e amo aprender mais e mais,
-                        estou sempre ansioso em melhorar!
-                    </p>
-                </div>
-
-            </div>
-
-            <div class="profile">
-                <div class="thumb">
-
-                </div>
-            </div>
-
-            <div class="progContent">
-                <div class="programacao">
-                    <p>
-                        <span class="p_function">while</span>
-
-                        <span class="p_parentheses">(
-                            <span class="p_var">guilherme.<span class="p_method">isAlive()</span></span>  
-                        </span>
-                        <span class="p_parentheses">)</span>
-
-                        <span class="p_keys">{</span>
-                    </p>
-                    
-                    <p>
-                        <p class="p_tab"><span class="p_var">guilherme.<span class="p_method">eat()</span></span></p>
-                        <p class="p_tab"><span class="p_var">guilherme.<span class="p_method">sleep()</span></span></p>
-                        <p class="p_tab"><span class="p_var">guilherme.<span class="p_methodE">code()</span></span></p>
-                    </p>
-
-                    <p><span class="p_keys">}</span></p>
-                </div>
-            </div>
-
-        </section>
-        
-        <!-- <div class="borderline"></div> -->
-
-        <section class="skills">
-            <p>MINHAS SKILLS E POWER-UP'S</p>
-            
-            <div class="carousel">
-                
-              
-                
-                <div class="skill">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" alt="Unity" title="Unity"/>
-                </div>
-
-                <div class="skill">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" title="Java"/>
-                </div>
-
-                <div class="skill">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="Csharp" title="Csharp"/>
-                </div>
-            
-                <div class="skill">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="Javascript" title="Javascript"/>
-                </div>
-
-                <div class="skill">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" title="HTML"/>
-                </div>
-                
-                <div class="skill">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" title="CSS"/>
-                </div>
-
-                <div class="skill">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" title="Python" />
-                </div>
-                
-                <div class="skill">
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" title="React" />
-                </div>
-            
-            </div>
-
-           
-        </section>
-
-
-
-        <section id="projectSection">
-
-            <div class="projectContent">
-
-                <h1>PROJETOS</h1>
-
-                <div class="partProjects">
-
-                    <a id="p1" class="imgSettings project" href="https://gldhperes.github.io/A-Dauntless-Adventure-Game/" target="_blank">
-                        <div class="projectText">
-                            <h3>A Dauntless Adventure</h3>
-                            <p>Jogo de Shot'em Up feito em unity</p>
+                            <div class="skill">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+                                    alt="Csharp" title="Csharp" />
+                            </div>
                         </div>
-                    </a>
-                    
-                    <a id="p2" class="imgSettings project" href="https://gldhperes.github.io/Pokemon-Roulette/" target="_blank">
-                        <div class="projectText">
-                            <h3>Roleta Pokemon</h3>
-                            <p>Um simples jogo de roletar o seu pokemon favorito, feito em React</p>
-                        </div>
-                    </a>
-                    
-                    <a id="p3" class="imgSettings project" href="https://resilient-mooncake-b38f15.netlify.app">
-                        <div class="projectText">
-                            <h3>YouTube Clone</h3>
-                            <p>Uma copia do YT, em React, usando Rapid API</p>
-                        </div>
-                    </a>
-					
-					<a id="p4" class="imgSettings project" href="https://gldhperes.github.io/modos-gregos/">
-                        <div class="projectText">
-                            <h3>Modos Gregos</h3>
-                            <p>Simples seletor de Modos Gregos para auxiliar músicos</p>
-                        </div>
-                    </a>
-                </div>
-    
-                <!-- <div class="projectButtons">
-                    <button class="buttonMore">Mostrar mais</button>
-                    <button class="buttonMenos">Mostrar menos</button>
-                </div>
+                    </div>
+                </a>
 
-                <div class="github">
-                    <a href="https://github.com/gldhperes?tab=repositories" target="_blank">Repositórios no GitHub</a>
-                </div> -->
+                <a id="p2" class="imgSettings flex project" href="https://gldhperes.github.io/Pokemon-Roulette/"
+                    target="_blank">
+                    <div class="projectText">
+                        <h3>Roleta Pokemon</h3>
+                        <p>Um simples jogo de roletar o seu pokemon favorito, feito em React</p>
+                    </div>
 
+                    <div class="projectLanguages flex">
+                        <div class="languages flex">
+
+                            <div class="skill">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                                    alt="React" title="React" />
+                            </div>
+
+                            <div class="skill">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                                    alt="HTML" title="HTML" />
+                            </div>
+
+                            <div class="skill">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                                    alt="CSS" title="CSS" />
+                            </div>
+
+                            <div class="skill">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                                    alt="Javascript" title="Javascript" />
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a id="p3" class="imgSettings flex project" href="https://resilient-mooncake-b38f15.netlify.app">
+                    <div class="projectText">
+                        <h3>YouTube Clone</h3>
+                        <p>Uma copia do YT, em React, usando Rapid API</p>
+                    </div>
+
+                    <div class="projectLanguages flex">
+                        <div class="languages flex">
+
+                            <div class="skill">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                                    alt="React" title="React" />
+                            </div>
+
+                            <div class="skill">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                                    alt="HTML" title="HTML" />
+                            </div>
+
+                            <div class="skill">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                                    alt="CSS" title="CSS" />
+                            </div>
+
+                            <div class="skill">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                                    alt="Javascript" title="Javascript" />
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a id="p4" class="imgSettings flex project" href="https://gldhperes.github.io/modos-gregos/">
+                    <div class="projectText">
+                        <h3>Modos Gregos</h3>
+                        <p>Simples seletor de Modos Gregos para auxiliar músicos</p>
+                    </div>
+
+                    <div class="projectLanguages flex">
+                        <div class="languages flex">
+
+                            <div class="skill">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                                    alt="HTML" title="HTML" />
+                            </div>
+
+                            <div class="skill">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                                    alt="CSS" title="CSS" />
+                            </div>
+
+                            <div class="skill">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                                    alt="Javascript" title="Javascript" />
+                            </div>
+                        </div>
+                    </div>
+                </a>
             </div>
 
-        </section>
+        </div>
 
-        <footer id="footer">
-    
-            <div class="info">
-                <p>E-mail: gldhperes@gmail.com</p>
-                <p>Número: (85)99696-0660</p>
-                <p>Criado por Guilherme Leiria de Holanda Peres</p>
-            </div>
+    </section>
 
-            <div id="brand" class="logo">
-                <!-- G/P -->
-                <a href="#header">G/P</a>
-            </div>
-        
-        </footer>
+    <footer id="footer">
+
+        <div class="info">
+            <p>E-mail: gldhperes@gmail.com</p>
+            <p>Número: (85)99696-0660</p>
+            <p>Criado por Guilherme Leiria de Holanda Peres</p>
+        </div>
+
+        <div id="brand" class="logo">
+            <!-- G/P -->
+            <a href="#header">G/P</a>
+        </div>
+
+    </footer>
 
     <script src="js/script.js"></script>
     <script src="js/dropdownMenu.js"></script>
-    </body>
+</body>
 
 </html>
