@@ -56,8 +56,10 @@ li{
  /* Banner */
 .home-main-banner{
     position: relative;
-    background: url(../img/paisagem.jpeg) top no-repeat;
-    background-size: 100% 100%;
+    background: url(../img/paisagem.jpg) top no-repeat;
+    /* background-size: 100% 100%; */
+    background-size: cover;
+    /* background-size: contain; */
     background-position: center;
     background-attachment: fixed;
     padding-top: 50px;

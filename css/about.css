@@ -43,11 +43,16 @@
 }
 
 .thumb{
-    width: 70%;
-    height: 70%;
-    border-radius: 100%;
-    background: url(../img/perfil.jpg) no-repeat;
+    --thumb-size: 220px;
+   
+    width: var(--thumb-size);
+    height: var(--thumb-size);
+    border-radius: 50%;
+    background: url(../img/perfil.jpg) top no-repeat;
+    /* background-size: 100% 100%; */
     background-size: cover;
+    background-position: center;
+    
    
 }
 

@@ -1,0 +1,20 @@
+#whatsapp{
+    --whats-size: 60px;
+    --whats-margin: 10px;
+
+    width: var(--whats-size);
+    height: var(--whats-size);
+    border-radius: 50%;
+
+    position: fixed;
+    bottom: var(--whats-margin);
+    left: var(--whats-margin);
+    z-index: 10;
+
+    background-image: url(../img/whatsapp.jpg);
+    background-size: cover;
+
+    cursor: pointer;
+    
+    
+}

@@ -67,7 +67,7 @@
     text-align: center;
     color: white;
     font-size: 20px;
-
+    
     font-weight: 600;
 }
 
@@ -97,8 +97,9 @@
 
 .h_li > a{
     color: var(--textColor);
-    font-size: 20px;
-    font-weight: 800;
+    font-size: 22px;
+    font-weight: bolder;
+    letter-spacing: 3px;
 }
 
 .h_li:hover{

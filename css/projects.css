@@ -5,6 +5,8 @@
     align-items: center;
     color: black;
     background-color: white;
+
+    padding-bottom: 100px;
 }
 
 /* .contentProjects{ */
@@ -16,10 +18,12 @@
     margin: 0 auto;
 }
 
-.projectContent h1{
+.projectContent > h1{
     
     font-size: 30px;
-    font-weight: bold;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    
 }
 
 .partProjects{
@@ -89,6 +93,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 .projectButtons button{

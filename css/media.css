@@ -101,4 +101,8 @@
         width: 95%;
         gap: 8px;
     }
+
+    #whatsapp{
+        --whats-size: 40px;
+    }
 }
