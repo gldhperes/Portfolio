@@ -1,0 +1,45 @@
+#links{
+    width: 100%;
+    padding: 20px 0;
+    padding-bottom: 80px;
+
+   
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 200px;
+
+    background-color: white;
+}
+
+#links > a
+{
+    width: 250px;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+
+    padding: 15px;
+
+    border-radius: 25px;
+    /* border: 1px solid black; */
+}
+
+#links > a:hover
+{
+    background-color: lightgray;
+}
+
+#links > a > img{
+    --link-img: 60px;
+
+    width: var(--link-img);
+    height: var(--link-img);
+}
+
+#links > a > p{
+    font-size: large;
+    font-weight: 800;
+}

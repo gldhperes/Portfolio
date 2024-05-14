@@ -1,36 +1,50 @@
-#p1{
+#p1 {
     background-image: url("../img/ada.png");
     background-size: 190% 101%;
 }
 
-#p2{
+#p2 {
     background-image: url("../img/poke-roulette.png");
 }
 
-#p3{
+#p3 {
     background-image: url("../img/yt_clone.png");
 }
 
-#p4{
+#p4 {
     background-image: url("../img/modos_gregos.png");
 }
 
-#p5{
+#p5 {
     background-image: url("../img/GP-Computers.png");
 }
 
-#p6{
+#p6 {
     background-image: url("../img/EscolaGP.png");
 }
 
-#p7{
+#p7 {
     background-image: url("../img/catalogador.png");
 }
 
-#p8{
+#p8 {
     background-image: url("../img/desenvolvimento.png");
 }
 
-#p9{
+#p9 {
     background-image: url("../img/desenvolvimento.png");
+}
+
+.imgAnim
+{
+    --tam: 100%;
+    width: var(--tam);
+    height: var(--tam);
+    overflow: hidden;
+    position: absolute;
+    transition: transform .4s;
+}
+
+.imgSettings:hover {
+    transform: scale(1.1);
 }

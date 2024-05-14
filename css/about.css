@@ -5,7 +5,7 @@
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 50px;
     font-family: "Raleway", sans-serif;
 
     /* background-color: rgb(0, 56, 56); */
@@ -13,7 +13,7 @@
 
 .contentAbout{
     padding: 2%;
-    width: 30%;
+    width: 0%;
 }
 
 .contentAbout .title{
@@ -38,8 +38,6 @@
     
     background: url(../img/profile-circle.png) no-repeat;
     background-size: 100% 100%;
-    /* background-color: aqua; */
-    position: relative;
 }
 
 .thumb{
@@ -65,7 +63,7 @@
     align-items: center;
     /* background-color: var(--progBackground); */
     border-radius: 20px;
-    /* border: 1px solid black; */
+  
     padding: 2% 2%;
     font-size: 20px;
     font-weight: 500;

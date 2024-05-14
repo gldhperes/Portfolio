@@ -1,6 +1,6 @@
 .skills {
     width: 100%;
-    padding: 9%;
+    padding: 9% 0;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -9,7 +9,7 @@
 
      
     background-image: linear-gradient(180deg, black 50%, white 50%);
-    /* background-color: aqua; */
+  
 }
 
 .skills>p {
@@ -24,6 +24,8 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
+
+    background-image: linear-gradient(180deg, black 50%, white 50%);
 }
 
 .skill {
