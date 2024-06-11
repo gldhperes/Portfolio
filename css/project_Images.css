@@ -35,6 +35,10 @@
     background-image: url("../img/desenvolvimento.png");
 }
 
+#p10 {
+    background-image: url("../img/kmeans.png");
+}
+
 .imgAnim
 {
     --tam: 100%;
