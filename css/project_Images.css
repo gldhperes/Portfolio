@@ -39,6 +39,10 @@
     background-image: url("../img/kmeans.png");
 }
 
+#p11 {
+    background-image: url("../img/Busca\ Heuristica.png");
+}
+
 .imgAnim
 {
     --tam: 100%;
