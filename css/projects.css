@@ -1,4 +1,4 @@
-#projectSection{
+#projectSection {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -10,7 +10,7 @@
 }
 
 /* .contentProjects{ */
-.projectContent{
+.projectContent {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -18,15 +18,15 @@
     margin: 0 auto;
 }
 
-.projectContent > h1{
-    
+.projectContent>h1 {
+
     font-size: 30px;
     font-weight: bolder;
     letter-spacing: 2px;
-    
+
 }
 
-.partProjects{
+.partProjects {
     width: 90%;
     display: flex;
     flex-flow: row wrap;
@@ -40,7 +40,7 @@
     margin: 15px auto;
 }
 
-.project{
+.project {
     --box-shadow: 0px 0px 12px #00000080;
     cursor: pointer;
     overflow: hidden;
@@ -49,10 +49,10 @@
 
     width: 270px;
     height: 350px;
-    
+
     flex-flow: column;
     justify-content: space-between;
-    
+
     font-size: small;
     border: 2px solid black;
     border-radius: 20px;
@@ -60,7 +60,15 @@
     box-shadow: var(--box-shadow);
 }
 
-.projectText{
+.project:hover {
+    border: 2px solid white;
+}
+
+.project:hover .imgSettings{
+    transform: scale(1.1);
+}
+
+.projectText {
     width: 100%;
     text-align: center;
     color: #fff;
@@ -70,7 +78,7 @@
     z-index: 2;
 }
 
-.projectLanguages{
+.projectLanguages {
     width: 100%;
     padding: 3px 10px;
 
@@ -84,11 +92,11 @@
     z-index: 2;
 }
 
-.languages{
+.languages {
     gap: 20px;
 }
 
-.languages>.skill{
+.languages>.skill {
     width: 30px;
     height: 30px;
 
@@ -96,7 +104,7 @@
     border-radius: 5px;
 }
 
-.imgSettings{
+.imgSettings {
     background-position: center;
     /* background-position: 50%; */
     background-repeat: no-repeat;
@@ -104,7 +112,7 @@
     /* background-size: 100% 100%; */
 }
 
-.projectButtons button{
+.projectButtons button {
     padding: 15px;
     font-size: 17px;
     border: none;
@@ -115,17 +123,17 @@
     cursor: pointer;
 }
 
-.projectButtons button:hover{
+.projectButtons button:hover {
     background-color: #303030;
 }
 
-.github{
+.github {
     transition: 0.2s;
     padding: 10px;
     border-radius: 20px;
 }
 
-.github > a{
+.github>a {
     font-size: 20px;
     font-weight: 800;
     letter-spacing: 0.1%;
@@ -133,7 +141,7 @@
     text-decoration: none;
 }
 
-.github:hover{
+.github:hover {
     /* color: var(--textColor); */
     letter-spacing: 0.2%;
     background-color: #858585;
