@@ -43,6 +43,10 @@
     background-image: url("../img/Busca\ Heuristica.png");
 }
 
+#p12 {
+    background-image: url("../img/event_horizon.png");
+}
+
 .imgAnim
 {
     --tam: 100%;
