@@ -47,6 +47,10 @@
     background-image: url("../img/event_horizon.png");
 }
 
+#p13{
+    background-image: url("../img/cssFX.png");
+}
+
 .imgAnim
 {
     --tam: 100%;
@@ -55,4 +59,7 @@
     overflow: hidden;
     position: absolute;
     transition: transform .4s;
+    
+    background-size: contain;
+    background-color: black;
 }
