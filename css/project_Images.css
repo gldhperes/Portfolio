@@ -51,6 +51,10 @@
     background-image: url("../img/cssFX.png");
 }
 
+#p14{
+    background-image: url("../img/shop_uitoolkit.png.png");
+}
+
 .imgAnim
 {
     --tam: 100%;
